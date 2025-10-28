@@ -1,0 +1,38 @@
+/* Basic page styling */
+body {
+    background-color: pink;
+    color: black;
+    font-family: Arial;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* Image style */
+img {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+/* Links */
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* List style for skills */
+ul {
+    list-style-type: square;
+}
+
+/* Center image and text block */
+div {
+    text-align: center;
+    margin-bottom: 20px;
+}
