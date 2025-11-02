@@ -1,32 +1,42 @@
-body {
-    background-color: #ffe6f2; /* Light pink background */
-    color: black;
-    font-family: Arial, sans-serif;
+/* Reset */
+* {
     margin: 0;
-    padding: 20px 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Heading / Title Section */
-#heading {
-    background-color: #FF69B4; /* Hot pink */
-    color: white;
-    padding: 30px 0;
+body {
+    background-color: #ffe6f2;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding: 20px;
     text-align: center;
 }
 
-/* BOX STYLE: applies to ALL divs except the heading */
-div:not(#heading) {
-    background-color: white; /* Box background */
+/* Title Section */
+#heading {
+    background-color: #FF69B4;
+    color: white;
+    padding: 30px 0;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Box Sections */
+.box {
+    background-color: white;
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    border: 4px solid #FF69B4; /* Strong border */
+    border: 3px solid #FF69B4;
     border-radius: 15px;
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Deep box shadow */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    text-align: left;
 }
 
+/* Image */
 img {
-    border: 5px solid black;
+    border: 4px solid black;
     border-radius: 15px;
     display: block;
     margin: 0 auto 20px auto;
@@ -34,4 +44,5 @@ img {
 
 ul {
     list-style-type: square;
+    padding-left: 20px;
 }
