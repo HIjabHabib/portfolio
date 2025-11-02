@@ -1,28 +1,62 @@
+/* Basic styling */
 body {
-    background-color: pink;
+    background-color: #f9e2e7;
     color: black;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     margin: 0;
+    padding: 0;
 }
 
-#heading
-{background-color:#FF69B4}
-h1 {
+/* Navbar styling */
+#navbar {
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#navbar a:hover {
+    color: #f08804; /* yellow/gold */
+}
+
+/* Container for central content */
+#container {
+    margin: 40px auto;
+    width: 80%;
     text-align: center;
-    font-size: 48px
-    display:flex
-    text-align:center;
 }
 
-img {
-    border: 3px solid black;
-    border-radius: 10px;
+/* Profile section */
+#profile img {
+    border-radius: 50%;
+    border: 5px solid #0f1111;
     margin-bottom: 20px;
+}
+
+#profile h2 {
+    margin: 10px 0;
+}
+
+/* Sections separated with boxes */
+.section {
+    background-color: white;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 15px;
+    border: 2px solid #f08804;
+    text-align: left;
 }
 
 ul {
     list-style-type: square;
+    padding-left: 20px;
 }
-
-
-
